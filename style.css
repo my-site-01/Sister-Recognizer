@@ -1,0 +1,22 @@
+#header {
+    color: rgb(0, 92, 129);
+    text-decoration: underline;
+}
+
+.name_of_objects {
+    color: rgb(0, 98, 77);
+}
+
+body {
+    background-color: lightseagreen;
+}
+
+#captured_image {
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+}
+
+#object, #accuracy {
+    color: rgb(0, 98, 77);
+}

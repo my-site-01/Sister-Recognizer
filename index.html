@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Sisters recognition</title>
+    <title>Sister Recognizer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -19,7 +19,7 @@
 
       <br><br>
 
-      <p style="font-size: 22px;">Model is trained to identify the following objects: </p>
+      <p style="font-size: 22px;" id="header">Model is trained to identify the following objects: </p>
       <b class="name_of_objects">
         Shreyasee
         <hr>
@@ -38,8 +38,8 @@
       <button onclick="check()" class="btn btn-success">Identify Image</button>
       <br><br>
 
-      <p style="font-size: 22px;">Object : <span id="result_object_name"></span> </p> 
-      <p style="font-size: 22px;">Accuracy : <span id="result_object_accuracy"></span> </p>
+      <p style="font-size: 22px;" id="object">Object : <span id="result_object_name"></span> </p> 
+      <p style="font-size: 22px;" id="accuracy">Accuracy : <span id="result_object_accuracy"></span> </p>
     </center>
 
   </div>
